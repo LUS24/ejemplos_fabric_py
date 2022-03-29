@@ -13,6 +13,7 @@ from posixpath import join as linux_join
 
 load_dotenv()
 
+# IMPORTANTE Para carpetas se requiere otra librería adicional, con put solo se pueden pasar archivos
 
 DIRECTORIO_IMAGENES_A_SUBIR = 'archivos_de_prueba_a_enviar'
 DIRECTORIO_DESCARGAS = 'archivos_de_prueba_recibidos'
